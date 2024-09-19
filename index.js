@@ -25,7 +25,7 @@ function sortArrayDescending(numbers) {
 
 // Task 6
 function lowercaseFirstLetter(str) {
-    if (!str) return str; // handle empty strings
+    if (!str) return str; 
     return str.charAt(0).toLowerCase() + str.slice(1);
 }
 
